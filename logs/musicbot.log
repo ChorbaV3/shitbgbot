@@ -1,0 +1,107 @@
+[243.996858597] 2018-11-26 13:35:48,264 - INFO - launcher: Starting sanity checks
+[260.996103287] 2018-11-26 13:35:48,281 - INFO - launcher: Checking for Python 3.5+
+[260.996103287] 2018-11-26 13:35:48,281 - INFO - launcher: Checking console encoding
+[260.996103287] 2018-11-26 13:35:48,281 - INFO - launcher: Setting console encoding to UTF-8
+[260.996103287] 2018-11-26 13:35:48,281 - INFO - launcher: Ensuring we're in the right environment
+[302.996397018] 2018-11-26 13:35:48,323 - INFO - launcher: Adding local bins/ folder to path
+[3442.958354950] 2018-11-26 13:35:51,463 - INFO - launcher: Required checks passed.
+[3443.956613541] 2018-11-26 13:35:51,464 - INFO - launcher: Optional checks passed.
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[17.5557806491851807] 2018-11-26 13:36:05,576 - WARNING - musicbot.config | In config.py::MainThread(7464), line 113 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[17.5557806491851807] 2018-11-26 13:36:05,576 - INFO - musicbot.config | In config.py::MainThread(7464), line 124 in run_checks: Using i18n: config/i18n/en.json
+[17.6507794857025146] 2018-11-26 13:36:05,671 - WARNING - musicbot.config | In config.py::MainThread(7464), line 207 in create_empty_file_ifnoexist: Creating config/blacklist.txt
+[17.7007777690887451] 2018-11-26 13:36:05,721 - WARNING - musicbot.config | In config.py::MainThread(7464), line 207 in create_empty_file_ifnoexist: Creating config/whitelist.txt
+[17.8837757110595703] 2018-11-26 13:36:05,904 - DEBUG - musicbot.config | In config.py::MainThread(7464), line 294 in find_autoplaylist: Copying _autoplaylist.txt to autoplaylist.txt
+[17.8887751102447510] 2018-11-26 13:36:05,909 - DEBUG - musicbot.json | In json.py::MainThread(7464), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[18.5127704143524170] 2018-11-26 13:36:06,533 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 223 in _setup_logging: Set logging level to INFO
+[18.5127704143524170] 2018-11-26 13:36:06,533 - INFO - musicbot.bot | In bot.py::MainThread(7464), line 83 in __init__: Starting MusicBot 1.9.8_1
+[18.5147697925567627] 2018-11-26 13:36:06,535 - INFO - musicbot.bot | In bot.py::MainThread(7464), line 89 in __init__: Loaded autoplaylist with 2531 entries
+[21.4007308483123779] 2018-11-26 13:36:09,421 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 913 in on_ready: Connection established, ready to go.
+[21.4007308483123779] 2018-11-26 13:36:09,421 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 334 in _cache_app_info: Caching app info
+[21.5727293491363525] 2018-11-26 13:36:09,593 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 735 in _scheck_ensure_env: Ensuring data folders exist
+[21.7717308998107910] 2018-11-26 13:36:09,792 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 751 in _scheck_server_permissions: Checking server permissions
+[21.7717308998107910] 2018-11-26 13:36:09,792 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 755 in _scheck_autoplaylist: Auditing autoplaylist
+[21.7717308998107910] 2018-11-26 13:36:09,792 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 759 in _scheck_configs: Validating config
+[21.7717308998107910] 2018-11-26 13:36:09,792 - DEBUG - musicbot.config | In config.py::MainThread(7464), line 213 in async_validate: Validating options...
+[21.7717308998107910] 2018-11-26 13:36:09,792 - DEBUG - musicbot.config | In config.py::MainThread(7464), line 227 in async_validate: Acquired owner id via API
+[21.7727265357971191] 2018-11-26 13:36:09,793 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 762 in _scheck_configs: Validating permissions config
+[21.7727265357971191] 2018-11-26 13:36:09,793 - DEBUG - musicbot.permissions | In permissions.py::MainThread(7464), line 65 in async_validate: Validating permissions...
+[21.7727265357971191] 2018-11-26 13:36:09,793 - DEBUG - musicbot.permissions | In permissions.py::MainThread(7464), line 69 in async_validate: Fixing automatic owner group
+[21.7727265357971191] 2018-11-26 13:36:09,793 - INFO - musicbot.bot | In bot.py::MainThread(7464), line 930 in on_ready: Connected: 507838654983438336/𝓜𝓾𝓼𝓲𝓬-𝓬𝓱𝓸𝓻𝓫𝓪#7323
+[21.7737271785736084] 2018-11-26 13:36:09,794 - INFO - musicbot.bot | In bot.py::MainThread(7464), line 938 in on_ready: Owner:     265504223599263744/𝓒𝓗𝓞𝓡𝓑𝓘𝓒𝓗𝓚𝓐#2188
+
+[21.7737271785736084] 2018-11-26 13:36:09,794 - INFO - musicbot.bot | In bot.py::MainThread(7464), line 941 in on_ready: Guild List:
+[21.7737271785736084] 2018-11-26 13:36:09,794 - INFO - musicbot.bot | In bot.py::MainThread(7464), line 944 in on_ready:  - Dev Place
+[21.7737271785736084] 2018-11-26 13:36:09,794 - INFO - musicbot.bot | In bot.py::MainThread(7464), line 944 in on_ready:  - 🥣ЧОРБИКА'S TASTY/☠TOXIC☠ COMMUNITY  🥣
+[21.7747268676757812] 2018-11-26 13:36:09,795 - INFO - musicbot.bot | In bot.py::MainThread(7464), line 944 in on_ready:  - ox server
+[21.7747268676757812] 2018-11-26 13:36:09,795 - INFO - musicbot.bot | In bot.py::MainThread(7464), line 944 in on_ready:  - ox server
+[21.7747268676757812] 2018-11-26 13:36:09,795 - INFO - musicbot.bot | In bot.py::MainThread(7464), line 990 in on_ready: Not bound to any text channels
+[21.7757267951965332] 2018-11-26 13:36:09,796 - INFO - musicbot.bot | In bot.py::MainThread(7464), line 1016 in on_ready: Not autojoining any voice channels
+[21.9477236270904541] 2018-11-26 13:36:09,968 - ERROR - musicbot.bot | In bot.py::MainThread(7464), line 901 in on_error: Exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\Martin\AppData\Local\Programs\Python\Python36\lib\site-packages\discord\client.py", line 225, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Martin\Desktop\Chorbi4kamusic\MusicBot\musicbot\bot.py", line 2796, in on_voice_state_update
+    player = await self.get_player(channel)
+  File "C:\Users\Martin\Desktop\Chorbi4kamusic\MusicBot\musicbot\bot.py", line 425, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+[27.2626583576202393] 2018-11-26 13:36:15,282 - INFO - musicbot.bot | In bot.py::MainThread(7464), line 2598 in on_message: 265504223599263744/𝓒𝓗𝓞𝓡𝓑𝓘𝓒𝓗𝓚𝓐#2188: !summon
+[27.9576511383056641] 2018-11-26 13:36:15,977 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 509 in on_player_finished_playing: Running on_player_finished_playing
+[27.9576511383056641] 2018-11-26 13:36:15,977 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 524 in on_player_finished_playing: No content in current autoplaylist. Filling with new music...
+[27.9856505393981934] 2018-11-26 13:36:16,005 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 505 in on_player_stop: Running on_player_stop
+[29.8186249732971191] 2018-11-26 13:36:17,838 - ERROR - musicbot.bot | In bot.py::MainThread(7464), line 546 in on_player_finished_playing: Error processing "https://youtube.com/watch?v=r4byIiHc5Eg": ERROR: This video is not available.
+[29.8206276893615723] 2018-11-26 13:36:17,840 - INFO - musicbot.bot | In bot.py::MainThread(7464), line 347 in remove_from_autoplaylist: Removing unplayable song from session autoplaylist: https://youtube.com/watch?v=r4byIiHc5Eg
+[29.8976294994354248] 2018-11-26 13:36:17,917 - INFO - musicbot.bot | In bot.py::MainThread(7464), line 361 in remove_from_autoplaylist: Updating autoplaylist
+[32.6715939044952393] 2018-11-26 13:36:20,691 - DEBUG - musicbot.entry | In entry.py::MainThread(7464), line 56 in get_ready_future: Created future for None
+[32.6715939044952393] 2018-11-26 13:36:20,691 - INFO - musicbot.bot | In bot.py::MainThread(7464), line 1864 in cmd_summon: Joining Dev Place/boi
+[32.6735906600952148] 2018-11-26 13:36:20,693 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 586 in on_player_entry_added: Running on_player_entry_added
+[32.7495889663696289] 2018-11-26 13:36:20,769 - INFO - musicbot.entry | In entry.py::MainThread(7464), line 285 in _really_download: Download started: https://youtube.com/watch?v=OzvasAJIHb4
+[34.6675653457641602] 2018-11-26 13:36:22,687 - DEBUG - musicbot.entry | In entry.py::MainThread(7464), line 56 in get_ready_future: Created future for None
+[34.7355647087097168] 2018-11-26 13:36:22,755 - INFO - musicbot.entry | In entry.py::MainThread(7464), line 295 in _really_download: Download complete: https://youtube.com/watch?v=OzvasAJIHb4
+[34.7385683059692383] 2018-11-26 13:36:22,758 - FFMPEG - musicbot.player | In player.py::MainThread(7464), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-OzvasAJIHb4-Five_Finger_Death_Punch_-_I_Apologize.webm
+[35.3935551643371582] 2018-11-26 13:36:23,413 - DEBUG - musicbot.player | In player.py::MainThread(7464), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x0000028BA2C73FD0> using <discord.voice_client.VoiceClient object at 0x0000028BA2888828>
+[35.3945553302764893] 2018-11-26 13:36:23,414 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 452 in on_player_play: Running on_player_play
+[35.3955552577972412] 2018-11-26 13:36:23,415 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 671 in serialize_queue: Serializing queue for 505420771686875137
+[40.4324917793273926] 2018-11-26 13:36:28,452 - INFO - musicbot.bot | In bot.py::MainThread(7464), line 2598 in on_message: 265504223599263744/𝓒𝓗𝓞𝓡𝓑𝓘𝓒𝓗𝓚𝓐#2188: !skip
+[40.5964953899383545] 2018-11-26 13:36:28,616 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 509 in on_player_finished_playing: Running on_player_finished_playing
+[40.6024899482727051] 2018-11-26 13:36:28,622 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 505 in on_player_stop: Running on_player_stop
+[42.8824622631072998] 2018-11-26 13:36:30,902 - DEBUG - musicbot.entry | In entry.py::MainThread(7464), line 56 in get_ready_future: Created future for None
+[42.8824622631072998] 2018-11-26 13:36:30,902 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 586 in on_player_entry_added: Running on_player_entry_added
+[42.8834619522094727] 2018-11-26 13:36:30,903 - INFO - musicbot.entry | In entry.py::MainThread(7464), line 285 in _really_download: Download started: https://youtube.com/watch?v=yOsTPyBSoKU
+[44.8824365139007568] 2018-11-26 13:36:32,902 - DEBUG - musicbot.entry | In entry.py::MainThread(7464), line 56 in get_ready_future: Created future for None
+[45.0104339122772217] 2018-11-26 13:36:33,030 - INFO - musicbot.entry | In entry.py::MainThread(7464), line 295 in _really_download: Download complete: https://youtube.com/watch?v=yOsTPyBSoKU
+[45.0144345760345459] 2018-11-26 13:36:33,034 - FFMPEG - musicbot.player | In player.py::MainThread(7464), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-yOsTPyBSoKU-Stan_Getz_-_Moonlight_In_Vermont.webm
+[45.0804345607757568] 2018-11-26 13:36:33,100 - DEBUG - musicbot.player | In player.py::MainThread(7464), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x0000028BA45D0978> using <discord.voice_client.VoiceClient object at 0x0000028BA2888828>
+[45.0814330577850342] 2018-11-26 13:36:33,101 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 452 in on_player_play: Running on_player_play
+[45.0824348926544189] 2018-11-26 13:36:33,102 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 671 in serialize_queue: Serializing queue for 505420771686875137
+[50.1463704109191895] 2018-11-26 13:36:38,166 - INFO - musicbot.bot | In bot.py::MainThread(7464), line 2598 in on_message: 265504223599263744/𝓒𝓗𝓞𝓡𝓑𝓘𝓒𝓗𝓚𝓐#2188: !play mazilo za gazilo
+[50.3593678474426270] 2018-11-26 13:36:38,379 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 1351 in cmd_play: {'_type': 'url', 'url': 'ytsearch:mazilo za gazilo', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'mazilo za gazilo', 'webpage_url_basename': 'mazilo za gazilo', 'extractor_key': 'Generic'}
+[53.6193273067474365] 2018-11-26 13:36:41,639 - INFO - musicbot.bot | In bot.py::MainThread(7464), line 2598 in on_message: 265504223599263744/𝓒𝓗𝓞𝓡𝓑𝓘𝓒𝓗𝓚𝓐#2188: !skip
+[53.7893266677856445] 2018-11-26 13:36:41,809 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 509 in on_player_finished_playing: Running on_player_finished_playing
+[53.7963237762451172] 2018-11-26 13:36:41,816 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 505 in on_player_stop: Running on_player_stop
+[54.7213137149810791] 2018-11-26 13:36:42,741 - DEBUG - musicbot.entry | In entry.py::MainThread(7464), line 56 in get_ready_future: Created future for None
+[54.7243132591247559] 2018-11-26 13:36:42,744 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 586 in on_player_entry_added: Running on_player_entry_added
+[54.7243132591247559] 2018-11-26 13:36:42,744 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 671 in serialize_queue: Serializing queue for 505420771686875137
+[54.7373118400573730] 2018-11-26 13:36:42,757 - INFO - musicbot.entry | In entry.py::MainThread(7464), line 285 in _really_download: Download started: https://www.youtube.com/watch?v=WYKaqegKdMU
+[56.3002984523773193] 2018-11-26 13:36:44,320 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 586 in on_player_entry_added: Running on_player_entry_added
+[56.7272906303405762] 2018-11-26 13:36:44,747 - DEBUG - musicbot.entry | In entry.py::MainThread(7464), line 56 in get_ready_future: Created future for None
+[56.7302899360656738] 2018-11-26 13:36:44,750 - DEBUG - musicbot.entry | In entry.py::MainThread(7464), line 56 in get_ready_future: Created future for None
+[56.7322881221771240] 2018-11-26 13:36:44,752 - INFO - musicbot.entry | In entry.py::MainThread(7464), line 285 in _really_download: Download started: https://youtube.com/watch?v=pfHM9HyRnRc
+[56.7522881031036377] 2018-11-26 13:36:44,772 - INFO - musicbot.entry | In entry.py::MainThread(7464), line 295 in _really_download: Download complete: https://www.youtube.com/watch?v=WYKaqegKdMU
+[56.7572867870330811] 2018-11-26 13:36:44,777 - FFMPEG - musicbot.player | In player.py::MainThread(7464), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-WYKaqegKdMU-+18_2014.webm
+[56.8612883090972900] 2018-11-26 13:36:44,881 - DEBUG - musicbot.player | In player.py::MainThread(7464), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x0000028BA58B59E8> using <discord.voice_client.VoiceClient object at 0x0000028BA2888828>
+[56.8632884025573730] 2018-11-26 13:36:44,883 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 452 in on_player_play: Running on_player_play
+[56.8642885684967041] 2018-11-26 13:36:44,884 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 671 in serialize_queue: Serializing queue for 505420771686875137
+[58.9502589702606201] 2018-11-26 13:36:46,970 - INFO - musicbot.entry | In entry.py::MainThread(7464), line 295 in _really_download: Download complete: https://youtube.com/watch?v=pfHM9HyRnRc
+[94.1138181686401367] 2018-11-26 13:37:22,134 - INFO - musicbot.bot | In bot.py::MainThread(7464), line 2598 in on_message: 265504223599263744/𝓒𝓗𝓞𝓡𝓑𝓘𝓒𝓗𝓚𝓐#2188: !skip
+[94.2128210067749023] 2018-11-26 13:37:22,233 - DEBUG - musicbot.entry | In entry.py::MainThread(7464), line 56 in get_ready_future: Created future for audio_cache\youtube-pfHM9HyRnRc-Lenno_-_Some_Lovin.webm
+[94.2128210067749023] 2018-11-26 13:37:22,233 - FFMPEG - musicbot.player | In player.py::MainThread(7464), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-pfHM9HyRnRc-Lenno_-_Some_Lovin.webm
+[94.2278158664703369] 2018-11-26 13:37:22,248 - DEBUG - musicbot.player | In player.py::MainThread(7464), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x0000028BA48343C8> using <discord.voice_client.VoiceClient object at 0x0000028BA2888828>
+[94.2288181781768799] 2018-11-26 13:37:22,249 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 509 in on_player_finished_playing: Running on_player_finished_playing
+[94.2288181781768799] 2018-11-26 13:37:22,249 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 671 in serialize_queue: Serializing queue for 505420771686875137
+[94.2428181171417236] 2018-11-26 13:37:22,263 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 452 in on_player_play: Running on_player_play
+[94.2428181171417236] 2018-11-26 13:37:22,263 - DEBUG - musicbot.bot | In bot.py::MainThread(7464), line 671 in serialize_queue: Serializing queue for 505420771686875137
+[148.1041405200958252] 2018-11-26 13:38:16,124 - INFO - musicbot.bot | In bot.py::MainThread(7464), line 2598 in on_message: 265504223599263744/𝓒𝓗𝓞𝓡𝓑𝓘𝓒𝓗𝓚𝓐#2188: !disconnect
